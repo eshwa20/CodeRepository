@@ -1,3 +1,8 @@
+source your_env/bin/activate  # for venv (Mac/Linux)
+your_env\Scripts\activate     # for venv (Windows)
+conda activate your_env       # for Conda
+
+
 import pandas as pd
 import re
 import matplotlib.pyplot as plt
