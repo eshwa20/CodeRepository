@@ -1,5 +1,4 @@
 import pandas as pd
-import nltk
 import re
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
