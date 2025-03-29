@@ -6,9 +6,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.tokenize import sent_tokenize
 from textwrap import fill
 
-# Install required packages
-!pip install nltk pandas scikit-learn matplotlib
-
 # Download ALL required NLTK data (including punkt_tab)
 import nltk
 nltk.download('punkt')        # Main punkt tokenizer
