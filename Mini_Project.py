@@ -1,14 +1,12 @@
-source your_env/bin/activate  # for venv (Mac/Linux)
-your_env\Scripts\activate     # for venv (Windows)
-conda activate your_env       # for Conda
-
-
 import pandas as pd
+import nltk
 import re
 import matplotlib.pyplot as plt
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.tokenize import sent_tokenize
 from textwrap import fill
+
+# Install required packages
 
 # Download ALL required NLTK data (including punkt_tab)
 import nltk
